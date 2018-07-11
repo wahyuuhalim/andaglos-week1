@@ -32,7 +32,7 @@ var exampleFirstWord3 = word.substring(0, 3);
 var secondWord3 = word.substring(4, 14); 
 var thirdWord3 = word.substring(15, 17); 
 var fourthWord3 = word.substring(18, 20); 
-var fifthWord3 = word.substring(21, 24); 
+var fifthWord3 = word.substring(21, 25); 
 
 console.log('First Word: ' + exampleFirstWord);
 console.log('Second Word: ' + secondWord);
@@ -62,10 +62,5 @@ console.log('Second Word: ' + secondWord + ', with length: ' + secondWordLength)
 console.log('Third Word: ' + thirdWord + ', with length: ' + thirdWordLength);
 console.log('Fourth Word: ' + fourthWord + ', with length: ' + fourthWordLength);
 console.log('Fifth Word: ' + fifthWord + ', with length: ' + fifthWordLength);
-// Output
-// First Word: wow, with length: 3
-// Second Word: JavaScript, with length: 10
-// Third Word: is, with length: 2
-// Fourth Word: so, with length: 2
-// Fifth Word: cool, with length: 4
+
  
