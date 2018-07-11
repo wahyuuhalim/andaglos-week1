@@ -1,5 +1,5 @@
-var nama = 'wahyu';
-var peran = 'tabib';
+var nama = '';
+var peran = '';
 
 if (nama === '' && peran === '') {
   console.log("Nama harus diisi");
