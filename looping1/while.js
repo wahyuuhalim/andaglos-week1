@@ -1,15 +1,15 @@
 var angkaPertama = 0;
 
 console.log("LOOPING PERTAMA");
-while(angkaPertama < 20){
-  angkaPertama += 2;
-  console.log(angkaPertama + " - I love coding")
+while(angkaPertama <= 20){
+  console.log(angkaPertama + " - I love coding");
+  angkaPertama += 2; 
 }
 
-var angkaKedua = 22;
+var angkaKedua = 20;
 
 console.log("LOOPING KEDUA");
-while(angkaKedua > 2) {
-  angkaKedua -= 2
+while(angkaKedua > 0) {
   console.log(angkaKedua + " - I will become developer");
+  angkaKedua -= 2
 }
