@@ -1,4 +1,5 @@
-//rows1
+//1. Menyusun Barisan Bintang
+
 var rows1 = 5;
 
 console.log("Jika rows1 = " + rows1);
@@ -6,7 +7,8 @@ for (var i = 1; i <= rows1; i++) {
   console.log("*");
 }
 
-//rows2
+//2. Menyusun Barisan Bintang Dengan Nested Looping
+
 var rows2 = 5;
 
 console.log("Jika rows2 = " + rows2);
@@ -18,7 +20,8 @@ for (var i = 1; i <= rows2; i++) {
   console.log(result);
 }
 
-//rows3
+//3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
+
 var rows3 = 5;
 var result = '';
 
