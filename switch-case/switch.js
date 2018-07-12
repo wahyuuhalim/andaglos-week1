@@ -1,44 +1,43 @@
-var tanggal = 4;
-var bulan = 3;
-var tahun = 1903;
-
+var tanggal = 2;
+var bulan = 2;
+var tahun = 1900;
 
 switch(bulan) {
   case 1:
-    console.log(tanggal + ' ' + 'Januari' + ' ' + tahun);
+    console.log(tanggal + ' Januari ' + tahun);
   break;
   case 2:
-    console.log(tanggal + ' ' + 'Februari' + ' ' + tahun);
+    console.log(tanggal + ' Februari ' + tahun);
   break;
   case 3:
-    console.log(tanggal + ' ' + 'Maret' + ' ' + tahun);
+    console.log(tanggal + ' Maret ' + tahun);
   break;
   case 4:
-    console.log(tanggal + ' ' + 'April' + ' ' + tahun);
+    console.log(tanggal + ' April ' + tahun);
   break;
   case 5:
-    console.log(tanggal + ' ' + 'Mei' + ' ' + tahun);
+    console.log(tanggal + ' Mei ' + tahun);
   break;
   case 6:
-    console.log(tanggal + ' ' + 'Juni' + ' ' + tahun);
+    console.log(tanggal + ' Juni ' + tahun);
   break;
   case 7:
-    console.log(tanggal + ' ' + 'Juli' + ' ' + tahun);
+    console.log(tanggal + ' Juli ' + tahun);
   break;
   case 8:
-    console.log(tanggal + ' ' + 'Agustus' + ' ' + tahun);
+    console.log(tanggal + ' Agustus ' + tahun);
   break;
   case 9:
-    console.log(tanggal + ' ' + 'Sebtember' + ' ' + tahun);
+    console.log(tanggal + ' Sebtember ' + tahun);
   break;
   case 10:
-    console.log(tanggal + ' ' + 'Oktober' + ' ' + tahun);
+    console.log(tanggal + ' Oktober ' + tahun);
   break;
   case 11:
-    console.log(tanggal + ' ' + 'November' + ' ' + tahun);
+    console.log(tanggal + ' November ' + tahun);
   break;
   case 12:
-    console.log(tanggal + ' ' + 'Desember' + ' ' + tahun);
+    console.log(tanggal + ' Desember ' + tahun);
   break;
   default:
     console.log("bulan habis");
