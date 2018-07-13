@@ -5,6 +5,7 @@
 // Code
 function tentukanDeretAritmatika(arr) {
  // you can only write your code here!
+ 
 }
 
 // TEST CASES

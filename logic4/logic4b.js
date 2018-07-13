@@ -9,6 +9,32 @@
 // Code
 function mengelompokkanAngka(arr) {
  // you can only write your code here!
+  var angkaGenap = [];
+  var angkaGanjil = [];
+  var kelipatanTiga = [];
+  var result = [];
+
+  for(var i = 0; i < arr.length; i++) {
+    if(arr[i] % 2 === 0 && arr[i] % 3 === 0) {
+      kelipatanTiga.push(arr[i])
+    } else if (arr[i] % 2 !== 0 && arr[i] % 3 === 0) {
+      kelipatanTiga.push(arr[i])
+    } else {
+      if(arr[i] % 2 === 0) {
+        angkaGenap.push(arr[i]);
+      } else if (arr[i] % 2 !== 0) {
+        angkaGanjil.push(arr[i]);
+      } else if (arr[i] % 3 === 0 ) {
+        kelipatanTiga.push(arr[i])
+      }
+    }  
+  }
+
+  result.push(angkaGenap);
+  result.push(angkaGanjil);
+  result.push(kelipatanTiga);
+
+  return result;
 }
 
 // TEST CASES

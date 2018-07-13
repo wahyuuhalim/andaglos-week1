@@ -5,6 +5,14 @@
 // Code
 function konversiMenit(menit) {
  // you can only write your code here!
+  var angka = menit;
+  var iniJam = (angka / 60);
+  var pembulatanJam = Math.floor(iniJam);
+  var iniMenit = (iniJam - pembulatanJam) * 60;
+  var pembulatanMenit = Math.round(iniMenit);
+  var waktu = pembulatanJam + ':' + pembulatanMenit;
+  
+  return waktu;
 }
 
 // TEST CASES
