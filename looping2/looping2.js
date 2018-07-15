@@ -27,6 +27,6 @@ var result = '';
 
 console.log("Jika rows3 = " + rows3)
 for (var i = 1; i <= rows3; i++) {
-  result += '*'
+  result += '*';
   console.log(result);
 }

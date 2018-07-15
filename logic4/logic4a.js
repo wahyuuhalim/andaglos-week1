@@ -5,9 +5,10 @@
 // Code
 function targetTerdekat(arr) {
  // you can only write your code here!
- for(var i = 0; i < arr.length; i++) {
-   
- }
+
+  for(var i = 0; i < arr.length; i++) {
+    console.log(arr[i])
+  }
 }
 
 // TEST CASES

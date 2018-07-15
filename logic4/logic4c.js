@@ -8,10 +8,11 @@
 // Code
 function groupAnimals(animals) {
  // you can only write your code here!
+  
   animals.sort()
   var cekHuruf = animals[0][0];
   var result = [];
-  var grupAnimals = []
+  var grupAnimals = [];
   
   for(var i = 0; i < animals.length; i++) {
     if (cekHuruf === animals[i][0]) {

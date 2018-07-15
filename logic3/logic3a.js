@@ -1,10 +1,15 @@
 // Logic Challenge - Mencari Mean
 
-// Problem
-// Diberikan sebuah function cariMean(arr) yang menerima sebuah array angka. Function akan me-return mean dari array atau deret angka tersebut. Mean adalah angka rata-rata dari deret bilangan tersebut. Contoh, mean atau rata-rata dari [1, 2, 3, 4, 5] adalah 3. Kita perlu kemudian melakukan pembulatan angka dari hasil mean yang didapatkan.
-// Code
 function cariMean(arr) {
  // you can only write your code here!
+   var mean = 0;
+
+   for(var i = 0; i < arr.length; i++) {
+     mean += arr[i]
+   }
+
+   mean = Math.floor(mean / arr.length)
+   return mean;
 }
 
 // TEST CASES
